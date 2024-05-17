@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.back{
+    background-image: url('/images/image-equilibrium.jpg');
+    background-size:contain;
+    transition:background-image 1.5s;
+    background-repeat: no-repeat;
+}
+.back:hover{
+    background-image: url("/images/icon-view.svg");
+    opacity: 0.7;
+  }
